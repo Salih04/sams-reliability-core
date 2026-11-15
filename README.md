@@ -21,6 +21,12 @@ The original full-code extract passed 543 unit tests (3 tests requiring the comp
 
 This project has not served production traffic and has not been load-tested. Temporal was tested on a development server. See all [limitations](docs/LIMITATIONS.md).
 
-The private system was built with AI coding agents in a specification, review, and validation workflow. I own the architecture, engineering decisions, acceptance criteria, and technical validation.
+## Authorship and AI Use
+
+SAMS is a two-person project. Salih Camcı is the technical lead.\
+Salih is responsible for architecture decisions, technical requirements, code review, and acceptance criteria.\
+Salih designed cursor-based event replay and the replay-to-live handoff, Temporal workflows with restart-durable approval steps, and organization-scoped tenant isolation.\
+AI coding agents were used as implementation tools.\
+Salih reviews changes and requires automated tests, including integration tests where applicable, before accepting them.
 
 All rights reserved. No licence is granted.
